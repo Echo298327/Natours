@@ -2,7 +2,7 @@
   "name": "natours",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Echo298327.github.io/natours",
+  "homepage": "https://Echo298327.github.io/Natours",
   "dependencies": {
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",

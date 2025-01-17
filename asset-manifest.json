@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/natours/static/css/main.12ffa937.css",
-    "main.js": "/natours/static/js/main.54081232.js",
-    "static/media/hero.jpg": "/natours/static/media/hero.15e5f60eb95486007f5a.jpg",
-    "static/media/logo-white.png": "/natours/static/media/logo-white.6c89a3f013a3d7593e24.png",
-    "index.html": "/natours/index.html",
-    "main.12ffa937.css.map": "/natours/static/css/main.12ffa937.css.map",
-    "main.54081232.js.map": "/natours/static/js/main.54081232.js.map"
+    "main.css": "/Natours/static/css/main.9af8ccef.css",
+    "main.js": "/Natours/static/js/main.4a566a83.js",
+    "static/media/hero.jpg": "/Natours/static/media/hero.15e5f60eb95486007f5a.jpg",
+    "static/media/logo-white.png": "/Natours/static/media/logo-white.6c89a3f013a3d7593e24.png",
+    "index.html": "/Natours/index.html",
+    "main.9af8ccef.css.map": "/Natours/static/css/main.9af8ccef.css.map",
+    "main.4a566a83.js.map": "/Natours/static/js/main.4a566a83.js.map"
   },
   "entrypoints": [
-    "static/css/main.12ffa937.css",
-    "static/js/main.54081232.js"
+    "static/css/main.9af8ccef.css",
+    "static/js/main.4a566a83.js"
   ]
 }

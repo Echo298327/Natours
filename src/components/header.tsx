@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
                 <HeaderButton 
                     text="Discover our tours" 
                     href="#" 
-                    isAnimated={false} 
+                    isAnimated={true} 
                     />
             </div>
         </header>

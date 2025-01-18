@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
+    /* most browsers default font size is 16px, 62.5% of 16px is 10px so 1rem = 10px */
+    font-size: 62.5%; 
 }
 
 body {
@@ -15,4 +16,5 @@ body {
     line-height: 1.7;
     color: #777;
     padding: 3rem;
+    box-sizing: border-box;
 }

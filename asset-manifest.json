@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Natours/static/css/main.882ad6f2.css",
+    "main.css": "/Natours/static/css/main.39b8da49.css",
     "main.js": "/Natours/static/js/main.8d16e0b4.js",
     "static/media/hero.jpg": "/Natours/static/media/hero.15e5f60eb95486007f5a.jpg",
     "static/media/logo-white.png": "/Natours/static/media/logo-white.6c89a3f013a3d7593e24.png",
     "index.html": "/Natours/index.html",
-    "main.882ad6f2.css.map": "/Natours/static/css/main.882ad6f2.css.map",
+    "main.39b8da49.css.map": "/Natours/static/css/main.39b8da49.css.map",
     "main.8d16e0b4.js.map": "/Natours/static/js/main.8d16e0b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.882ad6f2.css",
+    "static/css/main.39b8da49.css",
     "static/js/main.8d16e0b4.js"
   ]
 }

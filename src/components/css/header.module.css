@@ -22,12 +22,12 @@ Dark green: #28b485
 
 .logoBox {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
 }
 
 .textBox {
@@ -43,14 +43,14 @@ Dark green: #28b485
     text-transform: uppercase;
 
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 
 .headingPrimaryMain {
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 3.5rem;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
@@ -66,9 +66,9 @@ Dark green: #28b485
 
 .headingPrimarySub {
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 17.4px;
+    letter-spacing: 1.75rem;
 
     animation: moveInRight 1s ease-out;
 }
@@ -76,10 +76,10 @@ Dark green: #28b485
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-10rem);
     }
     80% {
-        transform: translateX(10px);
+        transform: translateX(1rem);
     }
     100% {
         opacity: 1;
@@ -90,10 +90,10 @@ Dark green: #28b485
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(10rem);
     }
     80% {
-        transform: translateX(10px);
+        transform: translateX(-1rem);
     }
     100% {
         opacity: 1;

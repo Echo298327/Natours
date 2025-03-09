@@ -1,0 +1,46 @@
+import React from "react";
+import AboutButtonSection from "./AboutButtonSection";
+import photo1 from '../assets/img/nat-1-large.jpg';
+import photo2 from '../assets/img/nat-2-large.jpg';
+import photo3 from '../assets/img/nat-3-large.jpg';
+
+import styles from './css/AboutSection.module.css';
+interface AboutSectionProps {
+}
+
+const AboutSection: React.FC<AboutSectionProps> = ({}) => {
+    return (
+        <main>
+            <section className={styles.sectionAbout}>
+                <div className={`${styles.uCenterText} ${styles.umarginBottomBig}`}>
+                    <h2 className={styles.headingSecondary}>
+                        Exciting tours for adventurous people
+                    </h2>
+                </div>
+
+            <div className="row">
+                <div className="col-1-of-2">
+                    <h3 className={`${styles.headingTertiary} ${styles.umarginBottomSmall}`}>You're going to fall in love with nature</h3>
+                    <p className={styles.paragraph}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.
+                    </p>
+                    <h3 className={`${styles.headingTertiary} ${styles.umarginBottomSmall}`}>Live adventures like you never have before</h3>
+                    <p className={styles.paragraph}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero.
+                    </p>
+                    <AboutButtonSection text={`Learn more`} />
+                    </div>
+                    <div className="col-1-of-2">
+                        <div className={styles.composition}>
+                            <img src={photo1} alt="Photo 1" className={`${styles.composition__photo} ${styles.composition__photo__p1}`}/>
+                            <img src={photo2} alt="Photo 2" className={`${styles.composition__photo} ${styles.composition__photo__p2}`} />
+                            <img src={photo3} alt="Photo 3" className={`${styles.composition__photo} ${styles.composition__photo__p3}`} />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    )
+}
+
+export default AboutSection;

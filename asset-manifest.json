@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Natours/static/css/main.fbbe07e6.css",
-    "main.js": "/Natours/static/js/main.8d16e0b4.js",
+    "main.css": "/Natours/static/css/main.806ec2fd.css",
+    "main.js": "/Natours/static/js/main.23ec470f.js",
     "static/media/hero.jpg": "/Natours/static/media/hero.15e5f60eb95486007f5a.jpg",
+    "static/media/nat-1-large.jpg": "/Natours/static/media/nat-1-large.a1c1cbdbbfcad1e41a64.jpg",
+    "static/media/nat-3-large.jpg": "/Natours/static/media/nat-3-large.da53b7a00e30c54d543a.jpg",
+    "static/media/nat-2-large.jpg": "/Natours/static/media/nat-2-large.cbc0cd9f8636cfe88fe7.jpg",
     "static/media/logo-white.png": "/Natours/static/media/logo-white.6c89a3f013a3d7593e24.png",
     "index.html": "/Natours/index.html",
-    "main.fbbe07e6.css.map": "/Natours/static/css/main.fbbe07e6.css.map",
-    "main.8d16e0b4.js.map": "/Natours/static/js/main.8d16e0b4.js.map"
+    "main.806ec2fd.css.map": "/Natours/static/css/main.806ec2fd.css.map",
+    "main.23ec470f.js.map": "/Natours/static/js/main.23ec470f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbbe07e6.css",
-    "static/js/main.8d16e0b4.js"
+    "static/css/main.806ec2fd.css",
+    "static/js/main.23ec470f.js"
   ]
 }

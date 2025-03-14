@@ -7,6 +7,8 @@ import AboutSection from './components/AboutSection';
 import FeaturesSection from './components/FeaturesSection';
 // Styles imports
 import './App.css';
+
+
 function App() {
   return (
     <div className="App">

@@ -1,9 +1,3 @@
-:root {
-  --grid-width: 114rem;
-  --gutter-vertical: 8rem;
-  --gutter-horizontal: 6rem;
-}
-
 .row {
   max-width: var(--grid-width);
   margin: 0 auto;

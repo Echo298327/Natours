@@ -7,23 +7,23 @@
     border-radius: 10rem;
     transition: all .2s;
     position: relative;
-    font-size: 1.6rem;
+    font-size: var(--default-font-size);
 }
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 2rem rgba(var(--color-black-rgb), 0.2);
 
 }
 
-.btn:active {
+.btn:active {   
     transform: translateY(-1px);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .5rem 1rem rgba(var(--color-black-rgb), 0.2);
 }
 
 .btnWhite {
-    background-color: #fff;
-    color: #777;
+    background-color: var(--color-white);
+    color: var(--color-gray-dark-1);
 }
 
 .btnWhite::after {
@@ -40,7 +40,7 @@
 }
 
 .btnWhite:hover::after {
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .btnWhite:hover::after {

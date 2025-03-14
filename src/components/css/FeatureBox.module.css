@@ -1,10 +1,10 @@
 .featureBox {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(var(--color-white-rgb), 0.8);
     font-size: 1.5rem;
     padding: 2.5rem;
     text-align: center;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(var(--color-black-rgb), 0.15);
     transition: transform 0.3s;
     
     
@@ -12,7 +12,7 @@
         font-size: 6rem;
         margin-bottom: 0.5rem;
         display: inline-block;
-        background-image: linear-gradient(to right, #7ed56f, #28b485);
+        background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
         -webkit-background-clip: text;
         color: transparent;
 

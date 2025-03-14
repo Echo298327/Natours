@@ -1,3 +1,7 @@
+@import './g_css/variables.css';
+@import './g_css/grid.css';
+@import './g_css/icon-font.css';
+
 *,
 *::after,
 *::before {

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './css/header.module.css';
+import styles from './css/Header.module.css';
 import logo from '../assets/img/logo-white.png';
 
 import HeaderButton from "./HeaderButton";

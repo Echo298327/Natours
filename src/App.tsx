@@ -1,13 +1,18 @@
+
+// React imports
 import React from 'react';
-import './App.css';
+// Components imports
 import Header from './components/Header';
 import AboutSection from './components/AboutSection';
-
+import FeaturesSection from './components/FeaturesSection';
+// Styles imports
+import './App.css';
 function App() {
   return (
     <div className="App">
       <Header />
       <AboutSection />
+      <FeaturesSection />
       {/* <section className="grid-test">
         <div className="row">
           <div className="col-1-of-2">
